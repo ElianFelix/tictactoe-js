@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                font-weight: 800;
+                font-size: xx-large;
+                text-align: center;
+                background-color: grey;
+            }
+
+            button {
+                height: auto;
+                margin: auto;
+                padding: 2rem;
+                border-radius: 5px;
+                font-weight: 900;
+                font-size: xx-large;
+            }
+
+            .grid {
+                display: grid;
+                justify-content: center;
+                background-color: rgb(88, 88, 88);
+                margin: auto;
+                grid-template-columns: repeat(3, 100px);
+                grid-template-rows: repeat(3, 100px);
+                gap: 8px;
+            }
+
+            .e {
+                display: inherit;
+                background-color: rgb(188, 188, 188);
+                height: 100px;
+                width: 100px;
+                justify-content: center;
+                align-content: center;
+                border: 1px solid black;
+            }
+
+            :not(div [class]) {
+                margin-block: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="./tictactoe.js"></script>
+    </body>
+</html>
