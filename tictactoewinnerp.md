@@ -50,10 +50,11 @@ Explanation: "B" wins.
 Input: moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
 Output: "Draw"
 Explanation: The game ends in a draw since there are no moves to make.
-
-```[X][x][O]
+```
+[X][x][O]
 [O][o][X]
-[X][o][X]```
+[X][o][X]
+```
 
 **Example 4:**
 
