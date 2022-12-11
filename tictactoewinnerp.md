@@ -14,7 +14,7 @@ Example 1:
 Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
 Output: "A"
 Explanation: "A" wins, he always plays first.
-
+```
 [X][ ][ ]
 [ ][ ][ ]
 [ ][ ][ ]
@@ -34,17 +34,17 @@ Explanation: "A" wins, he always plays first.
 [X][ ][ ]
 [ ][x][ ]
 [O][o][X]
-
+```
 **Example 2:**
 
 Input: moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
 Output: "B"
 Explanation: "B" wins.
-
+```
 [X][x][O]
 [X][o][ ]
 [O][ ][ ]
-
+```
 **Example 3:**
 
 Input: moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
@@ -61,10 +61,11 @@ Explanation: The game ends in a draw since there are no moves to make.
 Input: moves = [[0,0],[1,1]]
 Output: "Pending"
 Explanation: The game has not finished yet.
+```
 [X][ ][ ]
 [ ][o][ ]
 [ ][ ][ ]
-
+```
 **Constraints:**
 
 1 <= moves.length <= 9
